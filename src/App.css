@@ -8,3 +8,38 @@
 #root .mainPage{
   flex-grow: 1;
 }
+
+.sectionForm{
+  max-width: 800px;
+  height: 150px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+  background: #f1f1f1;
+}
+
+.sectionForm .form{
+  height: 100%;
+}
+
+.sectionNews{
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  background: #fff8f8;
+}
+
+.cardNews{
+  width: 300px;
+  min-height: 400px;
+}
+
+.imgNews{
+  width: 100%;
+  height: 200px;
+}
+
+.btnSeeNews{
+  background: #4b82a9;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btnSeeNews:hover{
+  background: #25577b;
+}
