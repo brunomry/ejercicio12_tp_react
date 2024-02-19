@@ -26,12 +26,12 @@ const FormularioNoticias = () => {
   return (
     <>
       <section className="sectionForm mx-auto px-2 rounded-3 bg-white ">
-        <Form className="form pt-5">
+        <Form className="form pt-2 pt-md-5">
           <Form.Group
             as={Row}
-            className="mb-2 mb-md-3 d-flex justify-content-center gap-3"
+            className="mb-2 mb-md-3 d-flex justify-content-md-center gap-2 gap-md-3"
           >
-            <Form.Label column sm="4">
+            <Form.Label column sm="5" md="4">
               Selecciona una categoría:
             </Form.Label>
             <Col md="5">
